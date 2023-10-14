@@ -1,0 +1,17 @@
+<form action="index.php?url=newCar" method="post">
+ <div>
+ <label>
+ Name
+ </label>
+ <input type="text" name="name" required/>
+ </div>
+ <div>
+ <label>
+ Price
+ </label>
+ <input type="text" name="price" required/>
+ </div>
+ <div class="actions">
+ <input type="submit" value="newCar"/>
+ </div>
+</form>
